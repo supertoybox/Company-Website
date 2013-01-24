@@ -1,0 +1,197 @@
+/* Add additional stylesheets below
+-------------------------------------------------- */
+/*
+  Additional styles for presenting Super Company website
+*/
+
+
+
+/* Body and structure
+-------------------------------------------------- */
+
+body {
+  position: relative;
+}
+
+h1 {
+	text-align: center;
+	font-family: HattoriHanzoLight;
+	font-size: 42px;
+}
+
+h2 {
+	font-family: HattoriHanzoLight;
+	font-size: 32px;
+}
+
+p {
+	font-family: Lucida Grande;
+}
+
+.headline {
+	padding: 60px 0;
+}
+
+.content {
+	border-top: 1px #E1E1E1 solid;
+}
+
+.span4 p{
+	font-size: 16px;
+	color: #9E9E9E;
+	line-height: 26px;
+}
+
+/* Jumbotrons
+-------------------------------------------------- */
+
+/* Base class
+------------------------- */
+.jumbotron {
+  position: relative;
+  padding: 250px 0;
+  color: #000;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+  background: #FFE400; /* Old browsers */
+  -webkit-box-shadow: inset 0 -3px 30px rgba(0,0,0,0.2);
+  -moz-box-shadow: inset 0 -3px 30px rgba(0,0,0,0.2);
+       box-shadow: inset 0 -3px 30px rgba(0,0,0,0.2);
+}
+.jumbotron h1 {
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+.jumbotron p {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.25;
+  margin-bottom: 30px;
+}
+
+/* Link styles (used on .masthead-links as well) */
+.jumbotron a {
+  color: #fff;
+  color: rgba(255,255,255,.5);
+  -webkit-transition: all .2s ease-in-out;
+     -moz-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+.jumbotron a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255,255,255,.25);
+}
+
+
+/* Body 1
+-------------------------------------------------- */
+.body1 h1 {
+
+}
+
+.body1 .row-fluid {
+	padding-bottom: 150px;
+}
+
+.body1 h2 {
+	padding: 50px 0 20px;
+	margin: 0 90px 0 0;
+	font-family: HattoriHanzoLight;
+	font-size: 34px;
+	border-bottom: 2px #FFE400 solid;
+}
+
+.body1 .span4 p{
+	padding: 50px 0 0;	
+	margin: 0 60px 0 0;	
+}
+
+/* Body 2
+-------------------------------------------------- */
+.body2 {
+	background: #FCFCFC;
+}
+
+.body2 .row-fluid {
+	padding-bottom: 150px;
+}
+
+.body2 .span4 {
+	background: #FFF;
+	margin-top: 100px;
+	height: 400px;
+}
+
+.body2 .tile-header {
+	padding: 30px 0;
+	background: #000;
+}
+
+.body2 h2 {
+/*	text-align: center;*/
+	margin: 0 0 0 40px;
+	color: #FFF;
+}
+
+.body2 li {
+	font-size: 18px;
+	margin: 20px 0;
+}
+
+/* Body 3
+-------------------------------------------------- */
+.body3 {
+	background: #FFF;
+}
+
+.body3 .row-fluid {
+	padding-bottom: 150px;
+}
+
+.body3 .span4 {
+	margin-top: 20px;
+}
+
+.body3 p {
+	margin: 0 0 -4px;
+	color: #000;	
+}
+
+.body3 .partner-name {
+	font-family: HattoriHanzoLight;
+	font-size: 24px;
+}
+
+.body3 .partner-role {
+	font-family: HattoriHanzoLightItalic;
+	font-size: 16px;	
+}
+
+.body3 .desc-content {
+	margin: 30px 70px 0 0;
+}
+
+.body3 .desc-content p {
+	font-family: Lucida Grande;
+	font-size: 14px;
+	line-height: 24px;	
+}
+
+/* Body 4
+-------------------------------------------------- */
+.body4 {
+	background: #FCFCFC;
+}
+
+.body4 .row-fluid {
+	padding-bottom: 150px;
+}
+
+/* Footer
+-------------------------------------------------- */
+.footer {
+	background: #000;
+	height: 400px;
+}
