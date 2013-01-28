@@ -121,7 +121,8 @@ p {
 /* Body 2
 -------------------------------------------------- */
 .body2 {
-	background: #FCFCFC;
+/*	background: transparent url('../img/gray-bg-noise.png');*/
+	background: #FCFCFC;	
 }
 
 .body2 .row-fluid {
@@ -131,7 +132,7 @@ p {
 .body2 .span4 {
 	background: #FFF;
 	margin-top: 100px;
-	height: 400px;
+	height: 420px;
 }
 
 .body2 .tile-header {
@@ -141,13 +142,21 @@ p {
 
 .body2 h2 {
 /*	text-align: center;*/
-	margin: 0 0 0 40px;
+	margin: 0 0 0 30px;
 	color: #FFF;
 }
 
+.body2 .tile-header h2 img{
+	padding-right: 20px;
+	margin-top: -6px;
+}
+
 .body2 li {
+	list-style-type: none;
+	background: url('../img/plus-icon-gray.png') no-repeat top left;	
 	font-size: 18px;
-	margin: 20px 0;
+	margin: 25px 0 0 5px;
+	padding-left: 35px;
 }
 
 /* Body 3
@@ -285,4 +294,37 @@ p {
 
 .footer p.desc-text{
 	margin: 0 60px 0 0;		
+}
+
+
+@media (max-width: 767px) {	
+	.jumbotron, .body2, .body4, .footer {
+		margin-right: -20px;
+		margin-left: -20px;
+	}
+
+	.jumbotron .container, .body2 .container, .body4 .container, .footer .container{
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	.jumbotron {
+  		padding: 200px 0;		
+	}
+
+	.body1 h2 {
+		margin: 0 40px 0 0;
+	}
+	
+	.body1 .span4 p {
+		margin: 0 20px 0 0;	
+	}
+		
+	.body3 .desc-content {
+		margin: 30px 20px 0 0;
+	}
+		
+	.body4 .span12 {
+		display: none;
+	}
 }
