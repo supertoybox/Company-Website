@@ -24,6 +24,12 @@ h2 {
 	font-size: 32px;
 }
 
+h3 {
+	font-family: HattoriHanzoLight;
+	font-size: 22px;
+	color: #FFF;
+}
+
 p {
 	font-family: Lucida Grande;
 }
@@ -40,6 +46,10 @@ p {
 	font-size: 16px;
 	color: #9E9E9E;
 	line-height: 26px;
+}
+
+.yellow-font {
+	color: #FFE400;
 }
 
 /* Jumbotrons
@@ -92,7 +102,7 @@ p {
 }
 
 .body1 .row-fluid {
-	padding-bottom: 150px;
+	padding-bottom: 130px;
 }
 
 .body1 h2 {
@@ -147,11 +157,12 @@ p {
 }
 
 .body3 .row-fluid {
-	padding-bottom: 150px;
+	padding-bottom: 60px;
 }
 
 .body3 .span4 {
 	margin-top: 20px;
+	margin-bottom: 90px;
 }
 
 .body3 p {
@@ -179,6 +190,10 @@ p {
 	line-height: 24px;	
 }
 
+.body3 .image-container {
+	margin-bottom: 20px;
+}
+
 /* Body 4
 -------------------------------------------------- */
 .body4 {
@@ -194,4 +209,31 @@ p {
 .footer {
 	background: #000;
 	height: 400px;
+}
+
+.footer .content{
+	border-top: none;
+}
+
+.footer .row-fluid {
+	margin-top: 30px;
+}
+
+.footer .desc-content {
+	margin-top: 20px;
+}
+
+.footer p {
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	color: #FFF;
+}
+
+.footer p.address {
+	color: #FFE400;
+}
+
+.footer p.yellow-font {
+	color: #FFE400;	
 }
