@@ -204,11 +204,25 @@ p {
 	padding-bottom: 150px;
 }
 
+.body4 .span12 {
+	margin: 0 0 80px;
+}
+
+.body4 h1.sub-line {
+	font-size: 34px;
+	margin: auto;
+	padding: 20px 0 10px;
+	background: #000;	
+	color: #FFE400;	
+	width: 50%;
+
+}
+
 /* Footer
 -------------------------------------------------- */
 .footer {
 	background: #000;
-	height: 400px;
+	padding-bottom: 50px;
 }
 
 .footer .content{
@@ -217,6 +231,10 @@ p {
 
 .footer .row-fluid {
 	margin-top: 30px;
+}
+
+.footer .span4 {
+	margin-bottom: 90px;
 }
 
 .footer .desc-content {
@@ -230,10 +248,41 @@ p {
 	color: #FFF;
 }
 
+.footer a {
+	color: #FFF;
+}
+
+.footer a:hover {
+	color: #9E9E9E;
+	text-decoration: none;	
+}
+
+.footer a img{
+	margin-right: 5px;
+}
+
 .footer p.address {
 	color: #FFE400;
 }
 
 .footer p.yellow-font {
 	color: #FFE400;	
+}
+
+.footer p.yellow-font a:hover{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.footer p.desc-email a{
+	color: #FFF;
+}
+
+.footer p.desc-email a:hover{
+	color: #9E9E9E;
+	text-decoration: none;
+}
+
+.footer p.desc-text{
+	margin: 0 60px 0 0;		
 }
