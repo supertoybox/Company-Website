@@ -28,7 +28,8 @@ h2 {
 
 h3 {
 	font-family: HattoriHanzoLight;
-	font-size: 22px;
+/*	font-size: 22px;*/
+	font-size: 32px;	
 	color: #FFF;
 	font-weight: normal;	
 }
@@ -125,7 +126,7 @@ p {
 -------------------------------------------------- */
 .body2 {
 /*	background: transparent url('../img/gray-bg-noise.png');*/
-	background: #FCFCFC;	
+	background: #F8F8F8;	
 }
 
 .body2 .row-fluid {
@@ -209,7 +210,7 @@ p {
 /* Body 4
 -------------------------------------------------- */
 .body4 {
-	background: #FCFCFC;
+	background: #F8F8F8;
 }
 
 .body4 .row-fluid {
@@ -265,7 +266,7 @@ p {
 }
 
 .footer a:hover {
-	color: #9E9E9E;
+	color: #FFE400;
 	text-decoration: none;	
 }
 
@@ -274,11 +275,11 @@ p {
 }
 
 .footer p.address {
-	color: #FFE400;
+	color: #ADADAD;
 }
 
 .footer p.yellow-font {
-	color: #FFE400;	
+	color: #ADADAD;	
 }
 
 .footer p.yellow-font a:hover{
