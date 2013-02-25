@@ -28,10 +28,10 @@ h2 {
 
 h3 {
 	font-family: HattoriHanzoLight;
-/*	font-size: 22px;*/
-	font-size: 32px;	
-	color: #FFF;
+	font-size: 20px;
+	color: #FFF;	
 	font-weight: normal;	
+	text-transform: uppercase;
 }
 
 p {
@@ -225,7 +225,7 @@ p {
 	font-size: 34px;
 	margin: auto;
 	padding: 20px 0 10px;
-	background: #000;	
+	background: #181818;
 	color: #FFE400;	
 	width: 50%;
 
@@ -234,8 +234,8 @@ p {
 /* Footer
 -------------------------------------------------- */
 .footer {
-	background: #000;
-	padding-bottom: 50px;
+	background: #181818;
+	padding-bottom: 0;
 }
 
 .footer .content{
@@ -247,15 +247,15 @@ p {
 }
 
 .footer .span4 {
-	margin-bottom: 90px;
+	margin-bottom: 60px;
 }
 
 .footer .desc-content {
-	margin-top: 20px;
+	margin-top: 5px;
 }
 
 .footer p {
-	font-size: 14px;
+	font-size: 13px;
 	padding: 0;
 	margin: 0;
 	color: #FFF;
@@ -266,7 +266,7 @@ p {
 }
 
 .footer a:hover {
-	color: #FFE400;
+	color: #9E9E9E;
 	text-decoration: none;	
 }
 
@@ -275,11 +275,11 @@ p {
 }
 
 .footer p.address {
-	color: #ADADAD;
+	color: #FFF;
 }
 
 .footer p.yellow-font {
-	color: #ADADAD;	
+	color: #FFE400;
 }
 
 .footer p.yellow-font a:hover{
@@ -301,13 +301,49 @@ p {
 }
 
 
+/* Social Footer
+-------------------------------------------------- */
+.social-footer {
+	background: #000;
+	padding-bottom: 30px;
+}
+
+.social-footer .content {
+	border-top: 1px #000 solid;
+}
+
+.social-footer .row-fluid {
+	margin-top: 30px;
+}
+
+.social-footer a {
+	color: #FFF;
+}
+
+.social-footer a span{
+	margin-left: 10px;
+}
+.social-footer a:hover {
+	color: #9E9E9E;
+	text-decoration: none;	
+}
+
+.social-footer p.desc-text{
+	font-size: 12px;
+	color: #FFF;
+	margin-top: 8px;
+}
+
+
+/* Media Queries
+-------------------------------------------------- */
 @media (max-width: 767px) {	
-	.jumbotron, .body2, .body4, .footer {
+	.jumbotron, .body2, .body4, .footer, .social-footer{
 		margin-right: -20px;
 		margin-left: -20px;
 	}
 
-	.jumbotron .container, .body2 .container, .body4 .container, .footer .container{
+	.jumbotron .container, .body2 .container, .body4 .container, .footer .container, .social-footer .container{
 		padding-right: 20px;
 		padding-left: 20px;
 	}
